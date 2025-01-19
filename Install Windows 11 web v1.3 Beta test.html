@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11 Installation Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0078d7;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .language-switcher {
+            text-align: right;
+            margin: 1rem 2rem 0 0;
+        }
+        .language-switcher a {
+            margin: 0 0.5rem;
+            color: #0078d7;
+            text-decoration: none;
+        }
+        .language-switcher a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+        .download-link {
+            display: block;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        .download-link a {
+            background-color: #0078d7;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-link a:hover {
+            background-color: #005bb5;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Windows 11 Installation Guide</h1>
+      <blockquote>
+        <blockquote>
+          <p data-lang="th">&nbsp;</p>
+        </blockquote>
+      </blockquote>
+<p style="font-size: 40px">ขั้นตอนการติดตั้ง Windown 11 ขั้นพื้นฐาน</p>
+        <p data-lang="en" style="display: none;">A step-by-step guide to install Windows 11</p>
+    </header>
+
+    <div class="language-switcher">
+        <span>ภาษา:</span>
+        <a href="#" onclick="switchLanguage('th');">ไทย</a>
+      
+</div>
+
+    <nav>
+        <a href="#requirements">ความต้องการระบบ</a>
+        <a href="#steps">อุปกรณ์ที่จำเป็น</a>
+        <a href="#troubleshooting">&nbsp;ขั้นตอนการติดตั้งไฟล์</a>
+		<a href="#nigga56">&nbsp;ขั้นตอนการติดตั้งผ่าน Flash Drive</a>
+    </nav>
+
+<div class="container">
+      <section id="requirements">
+        <h2>ความต้องการของระบบ</h2>
+            <ul data-lang="th">
+                <li>โปรเซสเซอร์ 1 GHz หรือมากกว่า</li>
+                <li>RAM อย่างน้อย 4 GB</li>
+                <li>อุปกรณ์เก็บข้อมูล 64 GB ขึ้นไป</li>
+                <li>การ์ดจอที่รองรับ DirectX 12</li>
+                <li>TPM เวอร์ชัน 2.0</li>
+                <li>รองรับ Secure Boot</li>
+            </ul>
+            <ul data-lang="en" style="display: none;">
+                <li>1 GHz or faster processor with at least 2 cores</li>
+                <li>4 GB RAM or more</li>
+                <li>64 GB or larger storage device</li>
+                <li>Compatible graphics card with DirectX 12 or later</li>
+                <li>TPM version 2.0</li>
+                <li>Secure Boot capability</li>
+            </ul>
+      </section>
+
+      <section id="steps">
+            <h2>อุปกรณ์ที่จำเป็นต่อการติดตั้ง&nbsp;</h2>
+            <ol>
+                <li data-lang="th">Flash Drive ( อย่างน้อย 8GB )</li>
+                <li data-lang="en" style="display: none;">Download the Windows 11 Installation Media Tool from the official Microsoft website.</li>
+                <li>&nbsp;อินเทอร์เน็ต เพราะการติดตั้ง Windows 11 ในหน้าลงชื่อเข้าใช้จำเป็นต้องใช้อินเทอร์เน็ต</li>
+                <li>Product Key Windows 11 หรือ หากไม่มีสามารถใช้แบบทดลองได้ฟรี แต่จะจำกัดบางฟังก์ชั่น&nbsp;</li>
+				<li>บัญชี Microsoft หากยังไม่มีบัญชี คลิกลงทะเบียนที่นี่ได้เลย&nbsp;</li> 
+				 <br>
+
+				<div class="download-link">
+            <a href="https://account.microsoft.com/account/Account?lang=th-th" target="_blank">ลงทะเบียน&nbsp;</a>     </div>
+            </ol>
+      </section>
+	
+	
+
+        <div class="download-link">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://download.microsoft.com/download/6/8/3/683178b7-baac-4b0d-95be-065a945aadee/Windows11InstallationAssistant.exe" target="_blank">Download Windows 11</a>     </div>
+	<br>
+        <section id="troubleshooting">
+            <h2>ขั้นตอนการติดตั้งไฟล์ลง Flash Drive</h2>
+            <ol>
+                <li data-lang="th">ดาวน์โหลดไฟล์การติดตั้ง Windows 11</li>
+				<img src="image/nb92-en7.jpg" alt=""/> <br>
+<li data-lang="en" style="display: none;">Download the Windows 11 Installation Media Tool from the official Microsoft website.</li>
+				<br>
+                <li>เปิดไฟล์ Windows 11 เลือกภาษาที่ต้องการและเวอร์ชันของระบบปฎิบัติการจากนั้นกด Next</li>
+				<img src="image/win11usbcreation00-600x474 (1).webp" alt=""/> <br>
+				<br>
+<li>เลือกเมนู USB flash drive จากนั้นกด Next โปรแกรมจะทำการติดตั้งไฟล์ใช้เวลา 10-20 นาที ขึ้นอยู่กับความเร็วอินเทอร์เน็ต</li>
+			  <img src="image/win11usbcreation011-600x474.webp" alt=""/>
+            </ol>
+        </section>
+	<br>
+		<section id="nigga56">
+            <h2>ขั้นตอนการติดตั้ง Windows 11 ผ่าน Flash Drive&nbsp; &nbsp;</h2>
+            <ol>
+                <li data-lang="th">เสียบ Flash Drive ที่ช่อง USB เข้าคอมพิวเตอร์หรือโน้ตบุ๊ต&nbsp;&nbsp;</li>
+			  <img src="image/istockphoto-1593448947-612x612.jpg" alt=""/>
+<li data-lang="en" style="display: none;">Download the Windows 11 Installation Media Tool from the official Microsoft website.</li>
+				<br>
+				<br>
+                <li>รีสตาร์ท คอมพิวเตอร์และเข้าเมนู BIOS โดยบางอุปกรณ์เข้าไม่เหมือนกัน (&nbsp;กด F2, F10, Delete หรือ ESC )&nbsp; &nbsp;จากนั้นเลือกเมนู Boot Optionไปที่เมนู UEFI Boot Order คลิ๊กที่เมนูแรก และเลือก Flash Drive ที่ติดตั้งไว้</li>
+				<img src="image/Bios02.jpg" alt=""/> <br>
+				<br>
+<li>บูทผ่านแฟลชไดรฟ์สำเร็จจากนั้นติดตั้ ในหน้าแรกแนะนำให้ติดตั้งเป็นภาษาอังกฤษ เลือก Time and currency format เป็น Thai&nbsp; แล้วกด Next จากนั้นก็กด Install</li>
+				<img src="image/IMG_0858-760x428.webp" alt=""/> <br>
+				<br>
+<li>เลือกที่เมนู Custom: Install Winsows only (advanced)&nbsp; &nbsp; &nbsp;</li>
+				<img src="image/windows-8-dual-boot_06.webp" alt=""/> <br>
+				<br>
+				
+<li>เมื่อถึงเมนูนี้ให้เลือกไฟล์ที่ต้องการติดตั้ง Windows 11 (หากมีหลายไดร์ฟให้เลือกไดร์ฟที่มีความจุเยอะที่สุด)&nbsp; &nbsp; &nbsp; แนะนำไดร์ฟต้องมีขนาด 100GB ขึ้นไป&nbsp; &nbsp; จากนั้นกด Next อุปกรณ์จะติดตั้งใช้เวลาค่อนข้างนาน&nbsp; &nbsp;</li>
+				<img src="image/dd.png" alt=""/> <br>
+				<br>
+<li>เมื่อติดตั้งสำเร็จขั้นตอนต่อไปคือการ Set up ต่างๆของอุกรณ์&nbsp;
+          <ul>
+              <li>เลือกที่อยู่เป็นประเทศไทย ( Thailand )</li>
+			  <img src="image/51dxNkreDdL._AC_UF1000,1000_QL80_.jpg" alt=""/> <br>
+			  <br>
+<li>เลือกแป้นพิมพ์แรกเป็น US&nbsp;</li>
+			  <img src="image/3.png" alt=""/> <br>
+			  <br>
+			  
+<li>และแป้นพิมพ์ที่&nbsp; 2 เป็น TH&nbsp;Thai Kedmanee จากนั้นเลือก Add Layout</li>
+		    <img src="image/8bb7d-image-22.png" alt=""/>
+          </ul>
+        </li>
+				
+                <li>ขั้นตอนนี้เป็นขั้นตอนลงชื่อเข้าใช้จำเป็นต้องใช้อินเทอร์เน็ตและบัญชีที่ลงทะเบียนไว้แล้วเท่านั้น&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ( windows 11 บังคับให้ลงชื่อเข้าใช้เท่านั้นไม่สามารถข้ามขั้นตอนนี้ได้ )&nbsp;&nbsp;
+				<ul>
+					<li>ตั้งชื่ออุปกรณ์</li>
+				  <img src="image/imgthumb_Week14_Content1_4-3@2x.png" alt=""/> <br>
+<br>
+				<li>ลงชื่อเข้าใช้ Microsoft ที่ลงทะเบียนไว้</li>
+					<img src="image/fff.png" alt=""/>
+					<br>
+					<br>
+					<li>เมื่อลงทะเบียนสำเร็จ เลือกเมนู Don't back up my files จากนั้นกด Next&nbsp;</li>
+				  <img src="image/image-20.png" alt=""/>
+                </ul>
+			  </li>
+				<br>
+				<br>
+				<li>ติดตั้ง Windows 11 สมบูรณ์&nbsp;</li>
+			  <img src="image/IMG_x0878-760x428.webp" alt=""/>
+            </ol>
+        </section>
+</div>
+
+    <footer>
+      <p>&copy; 2025 Windows Installation Guide. All rights reserved.</p>
+      <p>OUR TEAM</p>
+      <p>DEV&nbsp; Weerachon Khotrapan&nbsp;</p>
+<p></p>
+<p>&nbsp;</p>
+    </footer>
+	
+</body>
+</html>
+
